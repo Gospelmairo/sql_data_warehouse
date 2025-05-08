@@ -14,7 +14,7 @@ You can find the detailed project planning on Notion: [SQL Data Warehouse Projec
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/architecture.png)
+![Alt text](/Users/user/Desktop/Screenshot 2025-05-08 at 10.23.08 AM.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
